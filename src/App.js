@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from "react";
+import { LangContext } from "./context/LangContext";
+import data from "./data";
+import { Header } from "./globalStyles";
+import LangSwitcher from "./components/LangSwitcher";
 
 function App() {
+  const {lang} = useContext(LangContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header>
+        <h1>{data[lang].title}</h1>
+        <h3>{data[lang].subtitle}</h3>
+        <LangSwitcher/>
+      </Header>
+      <>
+          <p>
+            asdasd
+          </p>
+      </>
+    </>
   );
 }
 
