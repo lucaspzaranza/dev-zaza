@@ -1,0 +1,111 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+	<title>vuejs-svg</title>
+	<style>
+		.s0 { fill: none } 
+		.s1 { fill: #435466 } 
+		.s2 { fill: #4dba87 } 
+	</style>
+	<g id="SVGRepo_bgCarrier">
+	</g>
+	<g id="SVGRepo_tracerCarrier">
+	</g>
+	<g id="SVGRepo_iconCarrier">
+		<path id="Icons" class="s0" d="m-499-115h1280v800h-1280z"/>
+		<g id="Icons1">
+			<g id="Strike">
+			</g>
+			<g id="H1">
+			</g>
+			<g id="H2">
+			</g>
+			<g id="H3">
+			</g>
+			<g id="list-ul">
+			</g>
+			<g id="hamburger-1">
+			</g>
+			<g id="hamburger-2">
+			</g>
+			<g id="list-ol">
+			</g>
+			<g id="list-task">
+			</g>
+			<g id="trash">
+			</g>
+			<g id="vertical-menu">
+			</g>
+			<g id="horizontal-menu">
+			</g>
+			<g id="sidebar-2">
+			</g>
+			<g id="Pen">
+			</g>
+			<g id="Pen1">
+			</g>
+			<g id="clock">
+			</g>
+			<g id="external-link">
+			</g>
+			<g id="hr">
+			</g>
+			<g id="info">
+			</g>
+			<g id="warning">
+			</g>
+			<g id="plus-circle">
+			</g>
+			<g id="minus-circle">
+			</g>
+			<g id="vue">
+				<path id="Layer" fill-rule="evenodd" class="s1" d="m30.6 24.2h8.9l5.5 9.4 5.6-9.4h8.9l-14.5 25.4z"/>
+				<path id="Layer" fill-rule="evenodd" class="s2" d="m21.1 24.2l23.9 41.8 24.2-41.8h-9.7l-14.5 25.4-14.4-25.4z"/>
+			</g>
+			<g id="cog">
+			</g>
+			<g id="logo">
+			</g>
+			<g id="radio-check">
+			</g>
+			<g id="eye-slash">
+			</g>
+			<g id="eye">
+			</g>
+			<g id="toggle-off">
+			</g>
+			<g id="shredder">
+			</g>
+			<g id="spinner--loading--dots-">
+			</g>
+			<g id="react">
+			</g>
+			<g id="check-selected">
+			</g>
+			<g id="turn-off">
+			</g>
+			<g id="code-block">
+			</g>
+			<g id="user">
+			</g>
+			<g id="coffee-bean">
+			</g>
+			<g id="coffee-beans">
+				<g id="coffee-bean1">
+				</g>
+			</g>
+			<g id="coffee-bean-filled">
+			</g>
+			<g id="coffee-beans-filled">
+				<g id="coffee-bean2">
+				</g>
+			</g>
+			<g id="clipboard">
+			</g>
+			<g id="clipboard-paste">
+			</g>
+			<g id="clipboard-copy">
+			</g>
+			<g id="Layer1">
+			</g>
+		</g>
+	</g>
+</svg>

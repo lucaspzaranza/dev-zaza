@@ -4,6 +4,16 @@ import unity from './assets/svg/skills/unity.svg'
 import sql from './assets/svg/skills/sql-database.svg'
 import js from './assets/svg/skills/javascript.svg'
 import node from './assets/svg/skills/nodejs.svg'
+import html from './assets/svg/skills/html-5.svg'
+import css from './assets/svg/skills/css-3.svg'
+import react from './assets/svg/skills/react.svg'
+import angular from './assets/svg/skills/angular.svg'
+import vuejs from './assets/svg/skills/vuejs.svg'
+import mongodb from './assets/svg/skills/mongodb.svg'
+import github from './assets/svg/skills/github.svg'
+import docker from './assets/svg/skills/docker.svg'
+import tdd from './assets/svg/skills/test-driven-development.svg'
+import typescript from './assets/svg/skills/typescript.svg'
 
 export default {
     pt: {
@@ -121,6 +131,56 @@ export const techs = [
         name: 'NodeJS',
         icon: node,
         level: 1
+    },
+    {
+        name: 'HTML',
+        icon: html,
+        level: 2
+    },
+    {
+        name: 'CSS',
+        icon: css,
+        level: 2
+    },
+    {
+        name: 'React',
+        icon: react,
+        level: 2
+    },
+    {
+        name: 'Angular',
+        icon: angular,
+        level: 2
+    },
+    {
+        name: 'VueJS',
+        icon: vuejs,
+        level: 1
+    },
+    {
+        name: 'MongoDB',
+        icon: mongodb,
+        level: 1
+    },
+    {
+        name: 'Github',
+        icon: github,
+        level: 2
+    },
+    {
+        name: 'Docker',
+        icon: docker,
+        level: 1
+    },
+    {
+        name: 'TDD',
+        icon: tdd,
+        level: 2
+    },
+    {
+        name: 'TypeScript',
+        icon: typescript,
+        level: 2
     },
 ]
 

@@ -16,13 +16,13 @@ export const TechButtonContainer =  styled.button`
     transition: ease-in 0.1s;
     //margin-left: -20px;
 
-    span {
+    span { // tech file name
         position: absolute;
-        //background-color: red;
-        height: 50%;
+        //background-color: aqua;
+        height: 160px;
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
         justify-content: end;
         font-family: "JetBrains Mono";
         font-weight: bold;
@@ -67,6 +67,7 @@ export const TechButtonContainer =  styled.button`
 
 export const TechContainer = styled.div`
     width: 30vw;
+    //height: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
