@@ -1,5 +1,6 @@
 import { useState } from "react";
-import CollapsibleContainer, { StyledCollapsibleButton } from './collapsibeStyles'
+import CollapsibleContainer, { StyledCollapsibleButton, Caret } from './collapsibeStyles'
+import folder from '../../assets/svg/folder.svg'
 
 export default function CollapsibleButton({title, component, onClickCallback}) {
     const [showComponent, setShowComponent] = useState(false);
@@ -11,13 +12,16 @@ export default function CollapsibleButton({title, component, onClickCallback}) {
 
     return (
         <CollapsibleContainer>
-            <StyledCollapsibleButton onClick={showComponentOnClick}>
-            {title}
+            <StyledCollapsibleButton onClick={showComponentOnClick} clicked={showComponent.toString()}>
+                <img src={folder}/>
+                <span>
+                    C:/{title}/
+                    {showComponent && <Caret/>}
+                </span>
             </StyledCollapsibleButton>
 
             <div className={showComponent? 'show' : 'hide'}>
                 {showComponent && component}
-                {/* {component} */}
             </div>
         </CollapsibleContainer>
     )

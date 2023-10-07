@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37" width="37" height="37">
+	<title>csharp-svg</title>
+	<style>
+		.s0 { fill: #7f3a86 } 
+		.s1 { fill: #662579 } 
+		.s2 { fill: #9a5196 } 
+		.s3 { fill: #ffffff } 
+	</style>
+	<path id="Layer" class="s0" d="m29.7 25c0.2-0.3 0.3-0.7 0.3-1.1v-11.8c0-0.4-0.1-0.8-0.3-1.1l-11.7 7z"/>
+	<path id="Layer" class="s1" d="m19 31.7l10-5.9c0.2-0.2 0.5-0.5 0.7-0.8l-11.7-7-11.7 7c0.2 0.3 0.5 0.6 0.7 0.8l10 5.9c0.5 0.4 1.5 0.4 2 0z"/>
+	<path id="Layer" class="s2" d="m29.7 11c-0.2-0.3-0.5-0.6-0.7-0.8l-10-5.9c-0.5-0.4-1.5-0.4-2 0l-10 5.9c-0.5 0.3-1 1.2-1 1.9v11.8c0 0.4 0.1 0.8 0.3 1.1l11.7-7z"/>
+	<path id="Layer" class="s3" d="m18 26c-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8 2.8 0 5.5 1.5 6.9 3.9l-3.4 2c-0.8-1.2-2.1-1.9-3.5-1.9-2.2 0-4 1.8-4 4 0 2.2 1.8 4 4 4 1.4 0 2.7-0.7 3.5-1.9l3.4 2c-1.4 2.4-4.1 3.9-6.9 3.9z"/>
+	<path id="Layer" fill-rule="evenodd" class="s3" d="m28 15v1h1v1h-1v2h1v1h-1v1h-1v-1h-2v1h-1v-1h-1v-1h1v-2h-1v-1h1v-1h1v1h2v-1zm-1 4v-2h-2v2z"/>
+</svg>
