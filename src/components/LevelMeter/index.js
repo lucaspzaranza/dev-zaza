@@ -13,7 +13,7 @@ export default function LevelMeter({lvl, expanded}) {
         var bars = [];
 
         for (let index = 0; index < levelFill; index++) {
-            bars.push(<ProgressBarUnit/>)
+            bars.push(<ProgressBarUnit key={index}/>)
         }
 
         return bars;
