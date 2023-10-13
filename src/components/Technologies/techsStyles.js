@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import file from '../../assets/svg/file-thinner.svg';
 import LevelMeter from "../LevelMeter";
@@ -6,7 +6,7 @@ import { narrowScreen } from "../../globalStyles";
 
 export const TechButtonContainer =  styled.button`
     flex-basis: 110px;
-    width: 120px;
+    width: ${props => props.expanded === "true" ? "185px" : "120px"};
     height: 160px;
     display: flex;
     flex-direction: column;
@@ -15,12 +15,12 @@ export const TechButtonContainer =  styled.button`
     border: none;
     background-color: transparent;
     transition: ease-in 0.1s;
-    //margin-left: 10px;
 
     @media ${narrowScreen} {
-        width: 100px;
+        width: ${props => props.expanded === "true" ? "140px" : "100px"};
         height: 140px;
         flex-basis: 100px;
+        transition: ease-in 0.1s;
     }
 
     span { // tech file name
@@ -33,15 +33,6 @@ export const TechButtonContainer =  styled.button`
         font-family: "JetBrains Mono";
         font-weight: bold;
         margin-top: -15px;
-    }
-
-    &:hover {
-        width: 185px;
-        transition: ease-in 0.1s;
-
-        @media ${narrowScreen} {
-            width: 120px;            
-        }
     }
 
     img { 
@@ -58,7 +49,7 @@ export const TechButtonContainer =  styled.button`
         transition: ease-in 0.1s;
 
         @media ${narrowScreen} {
-            width: 70px;
+            width: 60px;
         }
     }
 
@@ -110,11 +101,20 @@ export function TechButton({tech}) {
         setExpanded(false);
     }
 
+    function toggleShowDetails() {
+        if(expanded) {
+            shrinkAndHideDetails()
+        }
+        else {
+            expandAndShowTechDetails()
+        }
+    }
+
     return (
-        <TechButtonContainer onPointerEnter={() => {if(!isMobile) expandAndShowTechDetails()}}
+        <TechButtonContainer onPointerEnter={() => {if(!isMobile) expandAndShowTechDetails()}} expanded={expanded.toString()}
             onPointerLeave={() => {if(!isMobile) shrinkAndHideDetails()}}
-            onClick={() => expanded ? shrinkAndHideDetails() : expandAndShowTechDetails()}
-        >
+            onClick={() => {if(isMobile) toggleShowDetails()}}>
+                
             <img src={file}/>
             <img src={tech.icon} className={expanded? 'expandIcon' : 'hideIcon'}/>
             {
