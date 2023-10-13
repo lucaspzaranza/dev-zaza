@@ -2,8 +2,12 @@ import styled from "styled-components";
 import { narrowScreen } from "../../globalStyles";
 
 export default styled.div`
-    width: 90%;
-    height: 90%;
+    position: absolute;
+    //background-color: aqua;
+    //width: 90%;
+    //height: 22%;
+    height: 140px;
+    //top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -14,19 +18,22 @@ export default styled.div`
     z-index: 1;
 
     @media ${narrowScreen} {
-        height: 80%;
+        height: 100px;
     }
 `
 
 export const ProgressBar = styled.div`
     width: 51px;
+    height: 15px;
     display: flex;
     flex-direction: row;
     background-color: gray;
     padding: 4px;
 
     @media ${narrowScreen} {
-        width: 43px;
+        width: 42px;
+        height: 12px;
+        padding: 3px;
     }
 `
 

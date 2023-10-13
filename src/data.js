@@ -92,6 +92,30 @@ export default {
                     "Nessa época eu trabalhei pra Unichristus, uma universidade católica aqui do Ceará que tinha uma demanda de sistemas para gerenciamento das aulas pelos professores universitários. Fui contratado para trabalhar com sistemas .NET, utilizando C#, o banco de dados PostgreSQL e no frontend utilizamos Blazor."
                     , "Foi a primeira vez que eu trabalhei como desenvolvedor fullstack e com banco de dados. Pela experiência com C#, eu não tive tanta dificuldade em programar, mas algumas coisas eu precisei comprar cursos e estudar, o Blazor era novidade, consultas SQL eu já tinha feito, mas nada profissional. Foi uma oportunidade de muito aprendizado."
                 ]
+            },
+            {
+                company: 'Wipro',
+                startDate: 'ABR 2021',
+                endDate: 'AGO 2021',
+                techs: '.NET, jQuery e SQL Server',
+                jobDescription: [
+                    "Surgiu uma oportunidade de eu voltar a trabalhar com a IVIA, agora chamada Wipro, dessa vez mais experiente e disposto a trabalhar como desenvolvedor de sistemas, diferente da época do ano de 2017. Fui terceirizado em um projeto em uma empresa para trabalhar com um sistema de adesão de novos usuários que era bastante utilizado lá."
+                    , "Era um sistema grande, e com uma versão mais antiga do .NET e com tecnologias que eu não estava habituado, tais como o jQuery, que eu tive que dar uma estudada e parar os estudos das ferramentas mais recentes. O frontend era todo feito com HTML. O maior desafio desse projeto não foi nem essa programação mais antiga, mas o banco de dados, que era uma base enorme. Cada tarefa pra ser realizada precisava de queries bastante complexas, e muitas delas precisavam de um grande conhecimento da regra de negócio, o que levou um novato na empresa como eu a demorar mais na entrega das tarefas. Foi uma experiência também de trabalhar em um time com QA testers, algo novo pra mim."
+                    , "Pelo fato de estar lidando com tecnologias mais antigas, eu não achei interessante permanecer ali, eu procurava um desafio que me levasse a trabalhar com ferramentas mais atuais, e não de sistemas legados. Hoje não penso mais assim, mas vejo que foi importante esse período em que eu me forcei a trabalhar com tecnologias mais atualizadas, porque isso me levou a experimentar outros ambientes que também foram importantes pro meu crescimento."
+
+                ]
+            },
+            {
+                company: 'Wiz',
+                startDate: 'SET 2021',
+                endDate: 'MAR 2022',
+                techs: '.NET Core, SQL Server e Angular',
+                jobDescription: [
+                    "O ano de 2021 foi um grande boom na área de tecnologia, pelo menos pra mim. Oportunidades não paravam de aparecer, recrutadores sempre me abordavam no Linkedin, e ficava difícil de recusar algumas ofertas. Eu estava procurando trabalhar com algo mais moderno, e apareceu a oportunidade de trabalhar na Wiz, terceirizado pela Mirante Tecnologia, como desenvolvedor Backend com .NET."
+                    , "Ali eu encontrei o que eu realmente estava procurando: um desafio à altura. Tecnologias de ponta, profissionais de alto nível, hierarquia e times bem estruturados. Só que em pouco tempo eu percebi que, pra falar a verdade, o desafio não era à altura... era maior que eu. Eu nunca tinha trabalhado num backend tão complexo e com uma regra de negócio tão complexa, foi quase uma terapia de choque."
+                    , "Após alguns meses como desenvolvedor backend, quis experimentar o desenvolvimento somente com frontend, já que eu estava desde o ano anterior com estudos mais focados no frontend com React, eu queria colocar aqueles estudos em prática. O backend eu fui meio que forçado a aprender, já que eram as oportunidades que me apareciam por conta da experiência anterior com C#, mas não eram as que eu buscava. Migrei pro front com Angular, e para a minha surpresa, foi tão desafiador quanto atuar no backend. Eu estudava React, que ainda era novo pra mim, e de repente atuar com Angular foi como se eu nunca tivesse visto aquilo antes."
+                    , "Por já estar trabalhando como desenvolvedor de sistemas por quase 1 ano e ter conseguido voltar a trabalhar na minha área de programação após 2 anos trabalhando em outra área, eu decidi que estava na hora de tentar mais uma vez trabalhar com aquilo que eu sempre sonhei, e na minha cabeça, era o que eu realmente queria fazer: os jogos. Então, enquanto me esforçava nas empresas em que eu atuava, eu tentava continuamente uma oportunidade pra atuar como game dev. E por volta de Março de 2022, eu enfim consegui isso, o que levou ao encerramento do meu ciclo na Wiz."
+                ]
             }
         ]
     },
@@ -164,6 +188,29 @@ export default {
                 jobDescription: [
                     "At that time I've worked at Unichristus, a catholic university from Ceará which had a demand with class management systems used by teachers. I was hired to work at the development of these systems using .NET, C# languagem PostgreSQL database, and Blazor at the frontend."
                     , "It was the first time I've worked as a fullstack engineer and with databases. Due the experience with C#, I hadn't much difficulties with coding, but some concepts were new for me and made me buy some courses and study, such as Blazor stuff; SQL queries I've already got experience, but nothing professional. It was a quite good opportunity to learn new techologies."
+                ]
+            },
+            {
+                company: 'Wipro',
+                startDate: 'APR 2021',
+                endDate: 'AUG 2021',
+                techs: '.NET, jQuery and SQL Server',
+                jobDescription: [
+                    "I got an opportunity to come back to IVIA, now called Wipro, this time more experienced and open to work as a system developer, unlike that year of 2017 when I worked with them for the first time. I was outsourced in a project inside a company to work with a new users registering system which was commonly at that place."
+                    , "It was a huge system, with an older .NET version, with technologies which I wasn't very used to, like jQuery, which I had to study and stop my lessons with newer techs. The frontend was made with HTML. The main struggle wasn't even that old code style, but deal with the database, which was enormous. Each task to be accomplished needed very complex queries, and a lot of them needed great knowledge of the business rule, which took to a freshman at the company like me to spend more time than the expected. It was my first time working with a team containing a QA tester too."
+                    , "Due the fact I was dealing with older technologies, I thought it wasn't interesting continue working there, I was seeking a challenge which would take me to work with newer tools, not with legacy systems. Today I changed my opinion about that, but I see as a good thing my way of thinking at that epoche, because it brought me more complex challenges, newer technologies and work with more robust teams."
+                ]
+            },
+            {
+                company: 'Wiz',
+                startDate: 'SEP 2021',
+                endDate: 'MAR 2022',
+                techs: '.NET Core, SQL Server and Angular',
+                jobDescription: [
+                    "O ano de 2021 foi um grande boom na área de tecnologia, pelo menos pra mim. Oportunidades não paravam de aparecer, recrutadores sempre me abordavam no Linkedin, e ficava difícil de recusar algumas ofertas. Eu estava procurando trabalhar com algo mais moderno, e apareceu a oportunidade de trabalhar na Wiz, terceirizado pela Mirante Tecnologia, como desenvolvedor Backend com .NET."
+                    , "Ali eu encontrei o que eu realmente estava procurando: um desafio à altura. Tecnologias de ponta, profissionais de alto nível, hierarquia e times bem estruturados. Só que em pouco tempo eu percebi que, pra falar a verdade, o desafio não era à altura... era maior que eu. Eu nunca tinha trabalhado num backend tão complexo e com uma regra de negócio tão complexa, foi quase uma terapia de choque."
+                    , "Após alguns meses como desenvolvedor backend, quis experimentar o desenvolvimento somente com frontend, já que eu estava desde o ano anterior com estudos mais focados no frontend com React, eu queria colocar aqueles estudos em prática. O backend eu fui meio que forçado a aprender, já que eram as oportunidades que me apareciam por conta da experiência anterior com C#, mas não eram as que eu buscava. Migrei pro front com Angular, e para a minha surpresa, foi tão desafiador quanto atuar no backend. Eu estudava React, que ainda era novo pra mim, e de repente atuar com Angular foi como se eu nunca tivesse visto aquilo antes."
+                    , "Por já estar trabalhando como desenvolvedor de sistemas por quase 1 ano e ter conseguido voltar a trabalhar na minha área de programação após 2 anos trabalhando em outra área, eu decidi que estava na hora de tentar mais uma vez trabalhar com aquilo que eu sempre sonhei, e na minha cabeça, era o que eu realmente queria fazer: os jogos. Então, enquanto me esforçava nas empresas em que eu atuava, eu tentava continuamente uma oportunidade pra atuar como game dev. E por volta de Março de 2022, eu enfim consegui isso, o que levou ao encerramento do meu ciclo na Wiz."
                 ]
             }
         ]

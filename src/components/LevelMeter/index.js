@@ -20,7 +20,7 @@ export default function LevelMeter({lvl, expanded}) {
     }
     
     return (
-        <LevelMeterContainer className={expanded? 'showContent' : 'hideContent'}>
+        <LevelMeterContainer className={(expanded? 'showContent' : 'hideContent') + ' level-meter'}>
             <ProgressBar>
                 {
                     renderProgressBar()

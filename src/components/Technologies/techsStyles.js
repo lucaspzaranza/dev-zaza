@@ -1,38 +1,80 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import file from '../../assets/svg/file-thinner.svg';
+//import file from '../../assets/svg/file-thinner.svg';
+import file from '../../assets/svg/file-thinner-white-bg.svg';
 import LevelMeter from "../LevelMeter";
 import { narrowScreen } from "../../globalStyles";
 
 export const TechButtonContainer =  styled.button`
-    flex-basis: 110px;
-    width: ${props => props.expanded === "true" ? "185px" : "120px"};
+    border: none;
+    background-color: transparent;
+    //background-color: red;
+    //margin-top: 20px;
     height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    transition: ease-in 0.1s;
+    justify-content: space-evenly;
 
     @media ${narrowScreen} {
-        width: ${props => props.expanded === "true" ? "140px" : "100px"};
-        height: 140px;
-        flex-basis: 100px;
+        width: 100px;
+    }
+
+    .file-with-icon { // file and icon
+        position: absolute;
+        //background-color: aqua;
+        //flex-basis: 110px;
+        width: ${props => props.expanded === "true" ? "185px" : "120px"};
+        //height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //justify-content: flex-end;
+        z-index: 0;
+        
         transition: ease-in 0.1s;
+    
+        @media ${narrowScreen} {
+            width: ${props => props.expanded === "true" ? "140px" : "100px"};
+            //background-color: red;
+            height: 140px;
+            flex-basis: 100px;
+            transition: ease-in 0.1s;
+        }
+    }
+
+    .tech-name {
+        //background-color: red;
+        //margin-top: 50%;
+        //height: 30px;
+        height: 100%;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        z-index: 20;
+    }
+
+    .level-meter {
+        //background-color: green;
+        //width: 100vw;
+        //height: inherit;
     }
 
     span { // tech file name
+        //background-color: white;
+        z-index: 1;
         position: absolute;
-        height: 160px;
+        //height: 160px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: end;
         font-family: "JetBrains Mono";
         font-weight: bold;
-        margin-top: -15px;
+        //margin-top: -15px;
     }
 
     img { 
@@ -40,6 +82,7 @@ export const TechButtonContainer =  styled.button`
 
         &:first-child {
             width: inherit;
+            //width: 120px;
         }
     }
 
@@ -64,13 +107,16 @@ export const TechButtonContainer =  styled.button`
     }
 
     .hideContent {
+        //display: none;
         opacity: 0;
+        //transform: scale(0);
+        transform: translateY(10px);
         transition: ease-in 0.1s;
     }
-
+    
     .showContent {
         opacity: 100%;
-        transition: ease-in 0.25s;
+        transition: ease-in 0.2s;
     }
 `
 
@@ -111,19 +157,26 @@ export function TechButton({tech}) {
     }
 
     return (
-        <TechButtonContainer onPointerEnter={() => {if(!isMobile) expandAndShowTechDetails()}} expanded={expanded.toString()}
-            onPointerLeave={() => {if(!isMobile) shrinkAndHideDetails()}}
-            onClick={() => {if(isMobile) toggleShowDetails()}}>
-                
-            <img src={file}/>
-            <img src={tech.icon} className={expanded? 'expandIcon' : 'hideIcon'}/>
-            {
-                !expanded && 
-                (
-                    <span>{tech.name}</span>
-                )
-            }
-            <LevelMeter lvl={tech.level} expanded={expanded}/>
-        </TechButtonContainer>
+        <>
+            <TechButtonContainer onPointerEnter={() => {if(!isMobile) expandAndShowTechDetails()}} expanded={expanded.toString()}
+                onPointerLeave={() => {if(!isMobile) shrinkAndHideDetails()}}
+                onClick={() => {if(isMobile) toggleShowDetails()}}>
+                    
+                <div className="file-with-icon">
+                    <img src={file}/>
+                    <img src={tech.icon} className={expanded? 'expandIcon' : 'hideIcon'}/>
+                </div>
+
+                <div className="tech-name">
+                    {
+                        !expanded && 
+                        (
+                            <span>{tech.name}</span>
+                        )
+                    }
+                </div>
+                <LevelMeter lvl={tech.level} expanded={expanded}/>
+            </TechButtonContainer>
+        </>
     )
 }
