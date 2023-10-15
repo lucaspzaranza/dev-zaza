@@ -513,7 +513,14 @@ export default {
                 ]
             },
         ]
-    }
+    },
+
+    links: [
+        {name: 'Linkedin', link: 'https://www.linkedin.com/in/lucas-zaranza-74157a60/'},
+        {name: 'E-mail', link: 'mailto:lucaszaranza@gmail.com'},
+        {name: 'Github', link: 'https://github.com/lucaspzaranza'},
+        {name: 'Game Portfolio', link: 'https://lucaszaranza-gamedev.netlify.app/'}
+    ]
 }
 
 export const techs = [
