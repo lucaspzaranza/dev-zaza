@@ -37,10 +37,12 @@ export const StyledCollapsibleButton = styled.button`
     justify-content: start;
     align-items: center;
     width: ${props => props.clicked === 'true' ? "85vw" : "35vw"};
+    min-width: 320px;
     background-color: transparent;
     cursor: pointer;
     font-family: inherit;
     font-size: 1.2em;
+    transition: ease-in 0.2s;
 
     img {
         width: 30px;
@@ -52,6 +54,11 @@ export const StyledCollapsibleButton = styled.button`
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        @media ${narrowScreen} {
+            font-size: 1em;
+            transition: ease-in 0.2s;
+        }
     }
 
     &:hover {
