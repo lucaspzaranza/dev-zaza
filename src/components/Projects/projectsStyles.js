@@ -18,17 +18,22 @@ export default styled.div`
         
         h4, h5 {
             display: flex;
-            width: max-content;
+            width: inherit;
             justify-content: center;
+            align-items: center;
             margin: inherit;
             padding: 10px;
             border: solid 2px;
+
+            @media ${narrowScreen} {
+                font-size: 0.7em;
+            }
         }
     }
 
     @media ${narrowScreen} {
         img {
-            width: 100vw;
+            width: 90%;
         }
     }
 
@@ -48,6 +53,11 @@ export default styled.div`
             color: black;
             box-shadow: 5px 5px #333;
             transition: ease-in 0.2s;
+            
+            @media ${narrowScreen} {
+                font-size: 0.7em;
+                padding: 10px;
+            }
         }
 
         a + a {

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { narrowScreen } from "../../globalStyles";
 
 export default styled.div`
     display: flex;
@@ -16,7 +17,13 @@ export default styled.div`
             margin-right: 10px;
         }
     }
-    `
+    
+    h3, span {
+        @media ${narrowScreen} {
+            font-size: 0.7em;
+        }
+    }
+`
 export const JobContainer = styled.div`
     display: flex;
     flex-direction: column;
