@@ -1,3 +1,4 @@
+// TECH SKILLS 
 import dotNET from './assets/svg/skills/dotnet.svg'
 import cSharp from './assets/svg/skills/csharp.svg'
 import unity from './assets/svg/skills/unity.svg'
@@ -21,6 +22,18 @@ import aseprite from './assets/svg/skills/aseprite.svg'
 import photoshop from './assets/svg/skills/photoshop.svg'
 import premiere from './assets/svg/skills/premiere.svg'
 import illustrator from './assets/svg/skills/illustrator.svg'
+
+// PROJECTS
+import penosas from './assets/png/projects/penosas.png'
+import wflow from './assets/png/projects/wflow-api.png'
+import inscriSER from './assets/png/projects/InscriSER.png'
+import objAp from './assets/png/projects/Objap.png'
+import OSadesao from './assets/png/projects/os-adesao.png'
+import marioplan from './assets/png/projects/marioplan.png'
+import robots from './assets/png/projects/robots-rolodex.png'
+import tasks from './assets/png/projects/tasks.png'
+import lambe from './assets/png/projects/lambe-lambe.png'
+import constellations from './assets/png/projects/constellations-of-marcos.png'
 
 export default {
     pt: {
@@ -116,7 +129,150 @@ export default {
                     , "Após alguns meses como desenvolvedor backend, quis experimentar o desenvolvimento somente com frontend, já que eu estava desde o ano anterior com estudos mais focados no frontend com React, eu queria colocar aqueles estudos em prática. O backend eu fui meio que forçado a aprender, já que eram as oportunidades que me apareciam por conta da experiência anterior com C#, mas não eram as que eu buscava. Migrei pro front com Angular, e para a minha surpresa, foi tão desafiador quanto atuar no backend. Eu estudava React, que ainda era novo pra mim, e de repente atuar com Angular foi como se eu nunca tivesse visto aquilo antes."
                     , "Por já estar trabalhando como desenvolvedor de sistemas por quase 1 ano e ter conseguido voltar a trabalhar na minha área de programação após 2 anos trabalhando em outra área, eu decidi que estava na hora de tentar mais uma vez trabalhar com aquilo que eu sempre sonhei, e na minha cabeça, era o que eu realmente queria fazer: os jogos. Então, enquanto me esforçava nas empresas em que eu atuava, eu tentava continuamente uma oportunidade pra atuar como game dev. E por volta de Março de 2022, eu enfim consegui isso, o que levou ao encerramento do meu ciclo na Wiz."
                 ]
+            },
+            {
+                company: 'Kokku',
+                startDate: 'MAR 2022',
+                endDate: 'JAN 2023',
+                techs: 'Unity3D e C#',
+                jobDescription: [
+                    "Trabalhar na Kokku foi a realização de um sonho adolescente, finalmente eu tinha conseguido um emprego na área de games, e pra melhorar, era com a utilização de ferramentas que eu usava há anos, como a Unity. Os games eram e continuam sendo a minha paixão."
+                    , "No começo foi aquela primavera, mas depois as coisas foram se mostrando um pouco diferentes do que eu imaginava. Eu passei anos trabalhando como desenvolvedor indie, fazendo tudo por minha conta e nos meus padrões de desenvolvimento, mas ali o ritmo era completamente diferente: eu não podia fazer as coisas do meu jeito, tinha que seguir padrões de arquitetura que os líderes técnicos estabeleciam, e algumas delas eu não via sentido ou discordava da sua utilização. Eu sou aberto a mudanças, mas ter que mudar algo que eu estava acostumado a fazer durante anos em alguns meses foi uma experiência desafiadora. Mas isso faz parte da profissão, já tinha trabalhado em equipe antes, só era novidade pra mim fazer isso na área de games."
+                    , "Infelizmente durante meu tempo na Kokku eu tive um problema pessoal que me afetou bastante, o que me fez ter uma queda no meu desempenho, e por conta disso não consegui acompanhar o ritmo na empresa."
+                ]
+            },
+            {
+                company: 'Buscando um novo emprego',
+                startDate: 'JAN 2023',
+                endDate: 'Dias atuais',
+                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                jobDescription:[
+                    'Esse ano de 2023 me trouxe um obstáculo que eu não estava preparado: o fim do meu ciclo com a Kokku seguido de uma dificuldade enorme de conseguir um novo emprego. Desde Janeiro estou procurando uma nova oportunidade, que até então não surgiu, e tenho aproveitado esse tempo livre pra estudar, aprofundar meus conhecimentos, e buscar amadurecer minha postura profissional.'
+                ]
             }
+        ],
+        projectsData: [
+            {
+                name: 'Este portfólio',
+                img: '',
+                imgWidth: '',
+                techs: 'React, CSS com Styled Components',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/dev-zaza',
+                description: [
+                    "Este próprio site. Desenvolvi não só pra servir como meu currículo, mas também para colocá-lo como projeto no meu portfólio."
+                ]
+            },
+            {
+                name: 'Constellations Of Marcos',
+                img: constellations,
+                imgWidth: '70vw',
+                techs: 'React, CSS com Styled Components',
+                link: 'https://constellations-of-marcos.vercel.app/',
+                github: 'https://github.com/lucaspzaranza/constellations-of-marcos',
+                description: [
+                    "Projeto autoral que desenvolvi para facilitar meu trabalho com Astrologia na hora de pesquisar por alguma estrela fixa. Sim, eu sou astrólogo também."
+                ]
+            },
+            {
+                name: 'Meus Games',
+                img: penosas,
+                imgWidth: '',
+                techs: 'Unity, C#, Photoshop e Aseprite',
+                link: 'https://lucaszaranza-gamedev.netlify.app/',
+                github: 'https://github.com/lucaspzaranza/my-game-portfolio',
+                description: [
+                    "Criei um portfólio exclusivo em que mostro todos os games que eu já desenvolvi e onde eu detalho melhor a minha trajetória como desenvolvedor de jogos."
+                ]
+            },
+            {
+                name: 'API WFlow (Wiz)',
+                img: wflow,
+                imgWidth: '70vw',
+                techs: '.NET Core e C#',
+                link: '',
+                github: '',
+                description: [
+                    "API em que eu trabalhei durante meu período na Wiz como desenvolvedor Backend. Não desenvolvi do zero, é claro, era uma API robusta em que desenvolvi algumas funcionalidades."
+                ]
+            },
+            {
+                name: 'InscriSER (Christus)',
+                img: inscriSER,
+                imgWidth: '70vw',
+                techs: '.NET, C#, Blazor e PostgreSQL',
+                link: '',
+                github: '',
+                description: [
+                    "Sistema desenvolvido para auxiliar os professores do setor religioso a realizarem o cadastro de usuários dos alunos da Crisma da escola."
+                ]
+            },
+            {
+                name: 'Objetivos de Aprendizagem (Unichristus)',
+                img: objAp,
+                imgWidth: '70vw',
+                techs: '.NET, C#, Blazor e PostgreSQL',
+                link: '',
+                github: '',
+                description: [
+                    "Sistema desenvolvido para auxiliar os professores universitários a prepararem seu cronograma de aulas."
+                ]
+            },
+            {
+                name: 'OS Adesão (Odonto System)',
+                img: OSadesao,
+                imgWidth: '70vw',
+                techs: '.NET, jQuery e SQL Server',
+                link: '',
+                github: '',
+                description: [
+                    "Trabalhei nesse sistema terceirizado pela Mirante Tecnologia, em que atuei adicionando novos layouts de menus e na criação de scripts de leituras utilizados pelos operadores de callcenter."
+                ]
+            },
+            {
+                name: 'Marioplan',
+                img: marioplan,
+                imgWidth: '70vw',
+                techs: 'React e Firebase',
+                link: 'https://net-ninja-marioplan-c7114.web.app/signin',
+                github: 'https://github.com/lucaspzaranza/marioplan',
+                description: [
+                    "Projeto de CRUD que eu fiz seguindo os tutoriais de React do canal do YouTube NetNinja."
+                ]
+            },
+            {
+                name: 'Robots Rolodex',
+                img: robots,
+                imgWidth: '70vw',
+                techs: 'React',
+                link: 'https://lucaspzaranza.github.io/robots-rolodex/',
+                github: 'https://github.com/lucaspzaranza/robots-rolodex',
+                description: [
+                    "O primeiro projeto em React que eu fiz seguindo tutoriais da Udemy. Esse foi o primeiro projeto que eu fiz que consumia uma Api."
+                ]
+            },
+            {
+                name: 'Lista de Afazeres',
+                img: tasks,
+                imgWidth: '70vw',
+                techs: 'React Native',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/offline-react-native-tasks',
+                description: [
+                    "O primeiro projeto que eu fiz com React Native seguindo tutoriais da Udemy."
+                ]
+            },
+            {
+                name: 'Lambe-Lambe',
+                img: lambe,
+                imgWidth: '70vw',
+                techs: 'React Native',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/lambe-lambe',
+                description: [
+                    "Projeto feito com React Native seguindo tutoriais da Cod3r. Utilizando recursos do celular, tais como a câmera, e fazendo o registro da foto."
+                ]
+            },
         ]
     },
 
@@ -207,12 +363,155 @@ export default {
                 endDate: 'MAR 2022',
                 techs: '.NET Core, SQL Server and Angular',
                 jobDescription: [
-                    "O ano de 2021 foi um grande boom na área de tecnologia, pelo menos pra mim. Oportunidades não paravam de aparecer, recrutadores sempre me abordavam no Linkedin, e ficava difícil de recusar algumas ofertas. Eu estava procurando trabalhar com algo mais moderno, e apareceu a oportunidade de trabalhar na Wiz, terceirizado pela Mirante Tecnologia, como desenvolvedor Backend com .NET."
-                    , "Ali eu encontrei o que eu realmente estava procurando: um desafio à altura. Tecnologias de ponta, profissionais de alto nível, hierarquia e times bem estruturados. Só que em pouco tempo eu percebi que, pra falar a verdade, o desafio não era à altura... era maior que eu. Eu nunca tinha trabalhado num backend tão complexo e com uma regra de negócio tão complexa, foi quase uma terapia de choque."
-                    , "Após alguns meses como desenvolvedor backend, quis experimentar o desenvolvimento somente com frontend, já que eu estava desde o ano anterior com estudos mais focados no frontend com React, eu queria colocar aqueles estudos em prática. O backend eu fui meio que forçado a aprender, já que eram as oportunidades que me apareciam por conta da experiência anterior com C#, mas não eram as que eu buscava. Migrei pro front com Angular, e para a minha surpresa, foi tão desafiador quanto atuar no backend. Eu estudava React, que ainda era novo pra mim, e de repente atuar com Angular foi como se eu nunca tivesse visto aquilo antes."
-                    , "Por já estar trabalhando como desenvolvedor de sistemas por quase 1 ano e ter conseguido voltar a trabalhar na minha área de programação após 2 anos trabalhando em outra área, eu decidi que estava na hora de tentar mais uma vez trabalhar com aquilo que eu sempre sonhei, e na minha cabeça, era o que eu realmente queria fazer: os jogos. Então, enquanto me esforçava nas empresas em que eu atuava, eu tentava continuamente uma oportunidade pra atuar como game dev. E por volta de Março de 2022, eu enfim consegui isso, o que levou ao encerramento do meu ciclo na Wiz."
+                    "The year of 2021 was a boom at the IT area, for me, at least. Job opportunities were showing one after another, tech recruiters always were talking with me at Linkedin, and some offers were really really tempting to give a look. I was looking for some chance to work with something newer, and so it showed for me the chance to work at Wiz, outsourced by Mirante Tecnologia, as a Mid Backend Developer with .NET."
+                    , "At Wiz I found what I was looking for: a real challenge. High quality technologies, high level professionals and well structured teams. The thing I wasn't expecting was the fact that challenge was bigger than me. I've never had worked with such a complex backend structure and with a business rule so different from my personal knowledge, insurances and policies stuff, it was almost a shock therapy."
+                    , "After a couple of months as a backend developer, I wanted to experience the frontend development, since I was studying since last year frontend stuff like React, so I wanted put that knowledge in practice. I was kinda forced to work with backend by the fact most of my past experience comes from C#, so most of the job offers which appeared for my were with techs related to this language. I migrated to front with Angular, and, for my surprise, it was as challenging as working with backend."
+                    , "Since I was working as a dev about 1 year after 2 years away from my profession working with something else, I decided it was the time to try one more time to return to work with games, which was in my head the thing I really wanted to do. So, while I struggled at the companies I was acting, I was continuously trying a job opportunity to work with game dev. And at March from 2022, finally the dream became reality, fact that caused my path at Wiz reaches its end."
+                ]
+            },
+            {
+                company: 'Kokku',
+                startDate: 'MAR 2022',
+                endDate: 'JAN 2023',
+                techs: 'Unity3D with C#',
+                jobDescription: [
+                    "Work at Kokku was the experience of making a teenager dream o' mine come true. Finally I did it and got a job to work with games and with tools I was used to, like Unity and C#. Games were and will be forever my passion."
+                    , "At the beginning everything sounded like a spring garden, but just some time after, things were showing a little bit different. I've passed several years as an indie dev, making everything all by myself and with my own design patterns, but at Kokku the rhyth was totally different, with tech leads showing us some architectures we had to follow to code along each others, and some of them I didn't see the real usage purposes, or even disagree with them. I'm open to new experiences, but have to change my way of making something I was used to make in a certain way during years was quite an effort. But this makes part of the IT profession, it was just something new to me when related to games."
+                    , "Unfortunately during my time at Kokku I had some private issues which affected me a lot, causing my performance to decrease substantially, and because of this I couldn't keep up with the company rhythm."
+                ]
+            },
+            {
+                company: 'Open to work',
+                startDate: 'JAN 2023',
+                endDate: 'Nowadays',
+                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                jobDescription:[
+                    "This year of 2023 brought me an obstacle I wasn't prepared for: the end of my cycle at Kokku followed by an enormous difficulty to find a new job. Since January I'm looking for a new opportunity, which hasn't appeared until then, and I'm enjoying this free time to study, enhance my skills, and try to mature my professional behaviour."
                 ]
             }
+        ],
+        projectsData: [
+            {
+                name: 'This own website',
+                img: '',
+                imgWidth: '',
+                techs: 'React, CSS with Styled Components',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/dev-zaza',
+                description: [
+                    "This own portfolio website. I've made it not only for serve as my curriculim, but also with a project inside of it."
+                ]
+            },
+            {
+                name: 'Constellations Of Marcos',
+                img: constellations,
+                imgWidth: '70vw',
+                techs: 'React, CSS with Styled Components',
+                link: 'https://constellations-of-marcos.vercel.app/',
+                github: 'https://github.com/lucaspzaranza/constellations-of-marcos',
+                description: [
+                    "Original project I made to help my work with Astrology when I need to search for a desired fixed star. Yes, I'm an astrologer too."
+                ]
+            },
+            {
+                name: 'My Games',
+                img: penosas,
+                imgWidth: '',
+                techs: 'Unity, C#, Photoshop and Aseprite',
+                link: 'https://lucaszaranza-gamedev.netlify.app/',
+                github: 'https://github.com/lucaspzaranza/my-game-portfolio',
+                description: [
+                    "I created a portfolio where I show all the games I've made this far and where I show with more details my walkthrough as a game developer."
+                ]
+            },
+            {
+                name: 'WFlow API (Wiz)',
+                img: wflow,
+                imgWidth: '70vw',
+                techs: '.NET Core and C#',
+                link: '',
+                github: '',
+                description: [
+                    "API where I worked during my period at Wiz as a backend developer. I didn't do it from scratch, of course, it was a robust API which I made some features."
+                ]
+            },
+            {
+                name: 'InscriSER (Christus)',
+                img: inscriSER,
+                imgWidth: '70vw',
+                techs: '.NET, C#, Blazor and PostgreSQL',
+                link: '',
+                github: '',
+                description: [
+                    "System designed to help teachers from the school religious branch to register students to the school Chrism."
+                ]
+            },
+            {
+                name: 'Objetivos de Aprendizagem (Unichristus)',
+                img: objAp,
+                imgWidth: '70vw',
+                techs: '.NET, C#, Blazor and PostgreSQL',
+                link: '',
+                github: '',
+                description: [
+                    "System designed to help college teachers to prepare their lessons agendas."
+                ]
+            },
+            {
+                name: 'OS Adesão (Odonto System)',
+                img: OSadesao,
+                imgWidth: '70vw',
+                techs: '.NET, jQuery and SQL Server',
+                link: '',
+                github: '',
+                description: [
+                    "I worked with this system outsourced by Mirante Tecnologia, where I've added new menu layouts and with the creation of reading scripts used by callcenter operators."
+                ]
+            },
+            {
+                name: 'Marioplan',
+                img: marioplan,
+                imgWidth: '70vw',
+                techs: 'React and Firebase',
+                link: 'https://net-ninja-marioplan-c7114.web.app/signin',
+                github: 'https://github.com/lucaspzaranza/marioplan',
+                description: [
+                    "A CRUD project I made following the React tutorials from the NetNinja YouTube channel."
+                ]
+            },
+            {
+                name: 'Robots Rolodex',
+                img: robots,
+                imgWidth: '70vw',
+                techs: 'React',
+                link: 'https://lucaspzaranza.github.io/robots-rolodex/',
+                github: 'https://github.com/lucaspzaranza/robots-rolodex',
+                description: [
+                    "My first React project. Made following Udemy courses. This was the first time I used external API calls too."
+                ]
+            },
+            {
+                name: 'To Do List',
+                img: tasks,
+                imgWidth: '70vw',
+                techs: 'React Native',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/offline-react-native-tasks',
+                description: [
+                    "The first project I made using React Native following Udemy courses."
+                ]
+            },
+            {
+                name: 'Lambe-Lambe',
+                img: lambe,
+                imgWidth: '70vw',
+                techs: 'React Native',
+                link: '',
+                github: 'https://github.com/lucaspzaranza/lambe-lambe',
+                description: [
+                    "Project made with React Native following Cod3r courses tutorials. Using mobile resources, just like the camera to take shots and register them."
+                ]
+            },
         ]
     }
 }

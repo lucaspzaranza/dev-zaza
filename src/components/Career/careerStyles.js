@@ -5,7 +5,7 @@ export default styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
     h3 {
         display: flex;
         flex-direction: row;
@@ -16,11 +16,12 @@ export default styled.div`
             margin-right: 10px;
         }
     }
-`
+    `
 export const JobContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 10px 10px #333;
 
     border: solid 2px;
     padding: 20px;

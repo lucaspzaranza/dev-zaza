@@ -3,18 +3,13 @@ import { narrowScreen } from "../../globalStyles";
 
 export default styled.div`
     position: absolute;
-    //background-color: aqua;
-    //width: 90%;
-    //height: 22%;
     height: 140px;
-    //top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
     font-family: "JetBrains Mono";
     font-weight: bold;
-    //font-size: 1.2em;
     z-index: 1;
 
     @media ${narrowScreen} {
