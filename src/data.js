@@ -142,14 +142,23 @@ export default {
                 ]
             },
             {
-                company: 'Buscando um novo emprego',
-                startDate: 'JAN 2023',
+                company: 'ExamRoom',
+                startDate: 'NOV 2023',
                 endDate: 'Dias atuais',
-                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                techs: '.NET, C#, Angular, SignalR, SQL Server',
                 jobDescription:[
-                    'Esse ano de 2023 me trouxe um obstáculo que eu não estava preparado: o fim do meu ciclo com a Kokku seguido de uma dificuldade enorme de conseguir um novo emprego. Desde Janeiro estou procurando uma nova oportunidade, que até então não surgiu, e tenho aproveitado esse tempo livre pra estudar, aprofundar meus conhecimentos, e buscar amadurecer minha postura profissional.'
+                    'Atualmente estou empregado e trabalho como Desenvolvedor Fullstack Pleno, utilizando .NET e C# no back junto com SQL Server, e no front Angular, HTML, SCSS e Material UI. Utilizamos também SignalR para comunicação em tempo real e microfrontends.'
                 ]
-            }
+            },
+            // {
+            //     company: 'Buscando um novo emprego',
+            //     startDate: 'JAN 2023',
+            //     endDate: 'Dias atuais',
+            //     techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+            //     jobDescription:[
+            //         'Esse ano de 2023 me trouxe um obstáculo que eu não estava preparado: o fim do meu ciclo com a Kokku seguido de uma dificuldade enorme de conseguir um novo emprego. Desde Janeiro estou procurando uma nova oportunidade, que até então não surgiu, e tenho aproveitado esse tempo livre pra estudar, aprofundar meus conhecimentos, e buscar amadurecer minha postura profissional.'
+            //     ]
+            // }
         ],
         projectsData: [
             {
@@ -381,14 +390,23 @@ export default {
                 ]
             },
             {
-                company: 'Open to work',
-                startDate: 'JAN 2023',
+                company: 'ExamRoom',
+                startDate: 'NOV 2023',
                 endDate: 'Nowadays',
-                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                techs: '.NET, C#, Angular, SignalR, SQL Server',
                 jobDescription:[
-                    "This year of 2023 brought me an obstacle I wasn't prepared for: the end of my cycle at Kokku followed by an enormous difficulty to find a new job. Since January I'm looking for a new opportunity, which hasn't appeared until then, and I'm enjoying this free time to study, enhance my skills, and try to mature my professional behaviour."
+                    "Currently I'm working as a Mid Fullstack Developer, using .NET, C# and SQL Server at the backend, and Angular, HTML, SCSS and Material UI at the frontend. We are using SignalR to the real time communication as well, and microfrontends."
                 ]
-            }
+            },
+            // {
+            //     company: 'Open to work',
+            //     startDate: 'JAN 2023',
+            //     endDate: 'Nowadays',
+            //     techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+            //     jobDescription:[
+            //         "This year of 2023 brought me an obstacle I wasn't prepared for: the end of my cycle at Kokku followed by an enormous difficulty to find a new job. Since January I'm looking for a new opportunity, which hasn't appeared until then, and I'm enjoying this free time to study, enhance my skills, and try to mature my professional behaviour."
+            //     ]
+            // }
         ],
         projectsData: [
             {
