@@ -138,27 +138,26 @@ export default {
                 jobDescription: [
                     "Trabalhar na Kokku foi a realização de um sonho adolescente, finalmente eu tinha conseguido um emprego na área de games, e pra melhorar, era com a utilização de ferramentas que eu usava há anos, como a Unity. Os games eram e continuam sendo a minha paixão."
                     , "No começo foi aquela primavera, mas depois as coisas foram se mostrando um pouco diferentes do que eu imaginava. Eu passei anos trabalhando como desenvolvedor indie, fazendo tudo por minha conta e nos meus padrões de desenvolvimento, mas ali o ritmo era completamente diferente: eu não podia fazer as coisas do meu jeito, tinha que seguir padrões de arquitetura que os líderes técnicos estabeleciam, e algumas delas eu não via sentido ou discordava da sua utilização. Eu sou aberto a mudanças, mas ter que mudar algo que eu estava acostumado a fazer durante anos em alguns meses foi uma experiência desafiadora. Mas isso faz parte da profissão, já tinha trabalhado em equipe antes, só era novidade pra mim fazer isso na área de games."
-                    , "Infelizmente durante meu tempo na Kokku eu tive um problema pessoal que me afetou bastante, o que me fez ter uma queda no meu desempenho, e por conta disso não consegui acompanhar o ritmo na empresa."
                 ]
             },
             {
                 company: 'ExamRoom',
                 startDate: 'NOV 2023',
-                endDate: 'Dias atuais',
+                endDate: 'OUT 2024',
                 techs: '.NET, C#, Angular, SignalR, SQL Server',
                 jobDescription:[
-                    'Atualmente estou empregado e trabalho como Desenvolvedor Fullstack Pleno, utilizando .NET e C# no back junto com SQL Server, e no front Angular, HTML, SCSS e Material UI. Utilizamos também SignalR para comunicação em tempo real e microfrontends.'
+                    'Atuei como Desenvolvedor Fullstack Sênior, utilizando .NET e C# no back junto com SQL Server, e no front Angular, HTML, SCSS e Material UI. Utilizamos também SignalR para comunicação em tempo real e microfrontends.'
                 ]
             },
-            // {
-            //     company: 'Buscando um novo emprego',
-            //     startDate: 'JAN 2023',
-            //     endDate: 'Dias atuais',
-            //     techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
-            //     jobDescription:[
-            //         'Esse ano de 2023 me trouxe um obstáculo que eu não estava preparado: o fim do meu ciclo com a Kokku seguido de uma dificuldade enorme de conseguir um novo emprego. Desde Janeiro estou procurando uma nova oportunidade, que até então não surgiu, e tenho aproveitado esse tempo livre pra estudar, aprofundar meus conhecimentos, e buscar amadurecer minha postura profissional.'
-            //     ]
-            // }
+            {
+                company: 'Buscando um novo emprego',
+                startDate: 'OUT 2024',
+                endDate: 'Dias atuais',
+                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                jobDescription:[
+                    'Aberto a novas oportunidades.'
+                ]
+            }
         ],
         projectsData: [
             {
@@ -386,27 +385,26 @@ export default {
                 jobDescription: [
                     "Work at Kokku was the experience of making a teenager dream o' mine come true. Finally I did it and got a job to work with games and with tools I was used to, like Unity and C#. Games were and will be forever my passion."
                     , "At the beginning everything sounded like a spring garden, but just some time after, things were showing a little bit different. I've passed several years as an indie dev, making everything all by myself and with my own design patterns, but at Kokku the rhyth was totally different, with tech leads showing us some architectures we had to follow to code along each others, and some of them I didn't see the real usage purposes, or even disagree with them. I'm open to new experiences, but have to change my way of making something I was used to make in a certain way during years was quite an effort. But this makes part of the IT profession, it was just something new to me when related to games."
-                    , "Unfortunately during my time at Kokku I had some private issues which affected me a lot, causing my performance to decrease substantially, and because of this I couldn't keep up with the company rhythm."
                 ]
             },
             {
                 company: 'ExamRoom',
                 startDate: 'NOV 2023',
-                endDate: 'Nowadays',
+                endDate: 'OCT 2024',
                 techs: '.NET, C#, Angular, SignalR, SQL Server',
                 jobDescription:[
-                    "Currently I'm working as a Mid Fullstack Developer, using .NET, C# and SQL Server at the backend, and Angular, HTML, SCSS and Material UI at the frontend. We are using SignalR to the real time communication as well, and microfrontends."
+                    "I've acted as a Senior Fullstack Developer, using .NET, C# and SQL Server at the backend, and Angular, HTML, SCSS and Material UI at the frontend. We are using SignalR to the real time communication as well, and microfrontends."
                 ]
             },
-            // {
-            //     company: 'Open to work',
-            //     startDate: 'JAN 2023',
-            //     endDate: 'Nowadays',
-            //     techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
-            //     jobDescription:[
-            //         "This year of 2023 brought me an obstacle I wasn't prepared for: the end of my cycle at Kokku followed by an enormous difficulty to find a new job. Since January I'm looking for a new opportunity, which hasn't appeared until then, and I'm enjoying this free time to study, enhance my skills, and try to mature my professional behaviour."
-            //     ]
-            // }
+            {
+                company: 'Open to work',
+                startDate: 'OCT 2024',
+                endDate: 'Nowadays',
+                techs: 'Unity, C#, Fullstack, .NET, React, Angular...',
+                jobDescription:[
+                    'Open to new opportunities.'
+                ]
+            }
         ],
         projectsData: [
             {
