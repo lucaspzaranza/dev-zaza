@@ -24,16 +24,16 @@ import premiere from './assets/svg/skills/premiere.svg'
 import illustrator from './assets/svg/skills/illustrator.svg'
 
 // PROJECTS
-import penosas from './assets/png/projects/penosas.png'
-import wflow from './assets/png/projects/wflow-api.png'
-import inscriSER from './assets/png/projects/InscriSER.png'
-import objAp from './assets/png/projects/Objap.png'
-import OSadesao from './assets/png/projects/os-adesao.png'
-import marioplan from './assets/png/projects/marioplan.png'
-import robots from './assets/png/projects/robots-rolodex.png'
-import tasks from './assets/png/projects/tasks.png'
-import lambe from './assets/png/projects/lambe-lambe.png'
-import constellations from './assets/png/projects/constellations-of-marcos.png'
+// import penosas from './assets/png/projects/penosas.png'
+// import wflow from './assets/png/projects/wflow-api.png'
+// import inscriSER from './assets/png/projects/InscriSER.png'
+// import objAp from './assets/png/projects/Objap.png'
+// import OSadesao from './assets/png/projects/os-adesao.png'
+// import marioplan from './assets/png/projects/marioplan.png'
+// import robots from './assets/png/projects/robots-rolodex.png'
+// import tasks from './assets/png/projects/tasks.png'
+// import lambe from './assets/png/projects/lambe-lambe.png'
+// import constellations from './assets/png/projects/constellations-of-marcos.png'
 
 export default {
     pt: {
@@ -173,7 +173,8 @@ export default {
             },
             {
                 name: 'Constellations Of Marcos',
-                img: constellations,
+                // img: constellations,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React, CSS com Styled Components',
                 link: 'https://constellations-of-marcos.vercel.app/',
@@ -184,7 +185,8 @@ export default {
             },
             {
                 name: 'Meus Games',
-                img: penosas,
+                // img: penosas,
+                img: '',
                 imgWidth: '',
                 techs: 'Unity, C#, Photoshop e Aseprite',
                 link: 'https://lucaszaranza-gamedev.netlify.app/',
@@ -195,7 +197,8 @@ export default {
             },
             {
                 name: 'API WFlow (Wiz)',
-                img: wflow,
+                // img: wflow,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET Core e C#',
                 link: '',
@@ -206,7 +209,8 @@ export default {
             },
             {
                 name: 'InscriSER (Christus)',
-                img: inscriSER,
+                // img: inscriSER,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, C#, Blazor e PostgreSQL',
                 link: '',
@@ -217,7 +221,8 @@ export default {
             },
             {
                 name: 'Objetivos de Aprendizagem (Unichristus)',
-                img: objAp,
+                // img: objAp,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, C#, Blazor e PostgreSQL',
                 link: '',
@@ -228,7 +233,8 @@ export default {
             },
             {
                 name: 'OS Adesão (Odonto System)',
-                img: OSadesao,
+                // img: OSadesao,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, jQuery e SQL Server',
                 link: '',
@@ -239,7 +245,8 @@ export default {
             },
             {
                 name: 'Marioplan',
-                img: marioplan,
+                // img: marioplan,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React e Firebase',
                 link: 'https://net-ninja-marioplan-c7114.web.app/signin',
@@ -250,7 +257,8 @@ export default {
             },
             {
                 name: 'Robots Rolodex',
-                img: robots,
+                // img: robots,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React',
                 link: 'https://lucaspzaranza.github.io/robots-rolodex/',
@@ -261,7 +269,8 @@ export default {
             },
             {
                 name: 'Lista de Afazeres',
-                img: tasks,
+                // img: tasks,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React Native',
                 link: '',
@@ -272,7 +281,8 @@ export default {
             },
             {
                 name: 'Lambe-Lambe',
-                img: lambe,
+                // img: lambe,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React Native',
                 link: '',
@@ -420,7 +430,8 @@ export default {
             },
             {
                 name: 'Constellations Of Marcos',
-                img: constellations,
+                // img: constellations,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React, CSS with Styled Components',
                 link: 'https://constellations-of-marcos.vercel.app/',
@@ -431,7 +442,8 @@ export default {
             },
             {
                 name: 'My Games',
-                img: penosas,
+                // img: penosas,
+                img: '',
                 imgWidth: '',
                 techs: 'Unity, C#, Photoshop and Aseprite',
                 link: 'https://lucaszaranza-gamedev.netlify.app/',
@@ -442,7 +454,8 @@ export default {
             },
             {
                 name: 'WFlow API (Wiz)',
-                img: wflow,
+                // img: wflow,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET Core and C#',
                 link: '',
@@ -453,7 +466,8 @@ export default {
             },
             {
                 name: 'InscriSER (Christus)',
-                img: inscriSER,
+                // img: inscriSER,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, C#, Blazor and PostgreSQL',
                 link: '',
@@ -464,7 +478,8 @@ export default {
             },
             {
                 name: 'Objetivos de Aprendizagem (Unichristus)',
-                img: objAp,
+                // img: objAp,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, C#, Blazor and PostgreSQL',
                 link: '',
@@ -475,7 +490,8 @@ export default {
             },
             {
                 name: 'OS Adesão (Odonto System)',
-                img: OSadesao,
+                // img: OSadesao,
+                img: '',
                 imgWidth: '70vw',
                 techs: '.NET, jQuery and SQL Server',
                 link: '',
@@ -486,7 +502,8 @@ export default {
             },
             {
                 name: 'Marioplan',
-                img: marioplan,
+                // img: marioplan,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React and Firebase',
                 link: 'https://net-ninja-marioplan-c7114.web.app/signin',
@@ -497,7 +514,8 @@ export default {
             },
             {
                 name: 'Robots Rolodex',
-                img: robots,
+                // img: robots,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React',
                 link: 'https://lucaspzaranza.github.io/robots-rolodex/',
@@ -508,7 +526,8 @@ export default {
             },
             {
                 name: 'To Do List',
-                img: tasks,
+                // img: tasks,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React Native',
                 link: '',
@@ -519,7 +538,8 @@ export default {
             },
             {
                 name: 'Lambe-Lambe',
-                img: lambe,
+                // img: lambe,
+                img: '',
                 imgWidth: '70vw',
                 techs: 'React Native',
                 link: '',

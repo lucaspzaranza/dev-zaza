@@ -35,7 +35,7 @@ function App() {
           <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].education} component={<Education/>}/>
           <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].techs} component={<Technologies/>}/>
           <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].career} component={<Career/>}/>
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].projects} component={<Projects/>}/>
+          {/* <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].projects} component={<Projects/>}/> */}
           <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].links} component={<Links/>}/>
       </MenuDiv>
     </>
