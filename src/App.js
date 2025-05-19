@@ -12,11 +12,11 @@ import Projects from "./components/Projects";
 import Links from "./components/Links";
 
 function App() {
-  const {lang} = useContext(LangContext);
+  const { lang } = useContext(LangContext);
   const [menuOpenCount, setMenuOpenCount] = useState(0);
 
   function setMenuCountCallback(value) {
-    setMenuOpenCount(prevState => prevState + value);
+    setMenuOpenCount((prevState) => prevState + value);
   }
 
   return (
@@ -24,19 +24,49 @@ function App() {
       <Header>
         <TitleDiv>
           <h1>{data[lang].title}</h1>
-          <LangSwitcher/>
+          <LangSwitcher />
         </TitleDiv>
 
         <h3>{data[lang].subtitle}</h3>
       </Header>
 
       <MenuDiv $menuOpenCount={menuOpenCount}>
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].about} component={<AboutMe/>}/>
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].education} component={<Education/>}/>
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].techs} component={<Technologies/>}/>
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].career} component={<Career/>}/>
-          {/* <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].projects} component={<Projects/>}/> */}
-          <CollapsibleButton onClickCallback={setMenuCountCallback} title={data[lang].links} component={<Links/>}/>
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].about}
+          component={<AboutMe />}
+          name="about"
+        />
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].education}
+          component={<Education />}
+          name="education"
+        />
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].techs}
+          component={<Technologies />}
+          name="technologies"
+        />
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].career}
+          component={<Career />}
+          name="career"
+        />
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].projects}
+          component={<Projects />}
+          name="projects"
+        />
+        <CollapsibleButton
+          onClickCallback={setMenuCountCallback}
+          title={data[lang].links}
+          component={<Links />}
+          name="links"
+        />
       </MenuDiv>
     </>
   );
