@@ -169,6 +169,7 @@ export default {
         github: "https://github.com/lucaspzaranza/front_robotics",
         description: [
           "Dashboard que eu fiz pra Botbot usando NextJS + Tailwind, e ROSLib pra se comunicar com os robôs.",
+          "Usuário e senha: lucasz.",
         ],
       },
       {
@@ -350,6 +351,7 @@ export default {
         github: "https://github.com/lucaspzaranza/front_robotics",
         description: [
           "Dashboard I made to Botbot Company using NextJS + Tailwind, and ROSLib to make the communication with the robots.",
+          "Username and password: lucasz.",
         ],
       },
       {
