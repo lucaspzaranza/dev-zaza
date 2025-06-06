@@ -179,7 +179,7 @@ export default {
         techs: "NextJS, Tailwind",
         link: "https://elisaferraz.adv.br/",
         github: "https://github.com/lucaspzaranza/elisa-adv",
-        description: ["Landing Page do site da minha noiva."],
+        description: ["Landing Page do site feito para uma advogada."],
       },
       {
         name: "Este portfólio",
@@ -361,7 +361,7 @@ export default {
         techs: "NextJS, Tailwind",
         link: "https://elisaferraz.adv.br/",
         github: "https://github.com/lucaspzaranza/elisa-adv",
-        description: ["Landing Page I made to my fiancee."],
+        description: ["Landing Page I made to a lawyer."],
       },
       {
         name: "This own website",
